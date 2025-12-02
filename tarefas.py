@@ -1,16 +1,3 @@
-# tarefas.py: responsável por manipular as tarefas (adicionar, listar, remover). 
-
-#  Cada tarefa deve ser representada como um dicionário no formato: {"nome": "descrição da tarefa", "concluida": False} Ou seja, toda tarefa tem um nome e um status de conclusão (booleano: True ou False).
-
-#  No módulo tarefas.py, implemente funções para: Adicionar tarefa → cria uma nova tarefa com "concluida": False.
- 
-#  Listar tarefas → exibe todas as tarefas numeradas, mostrando se estão concluídas ou não.
- 
-#  Remover tarefa → recebe o índice da tarefa na lista e a exclui.
- 
-#  Concluir tarefa → recebe o índice da tarefa e altera o campo "concluida" para True.
-
-
 lista_de_tarefas = []
 
 def adicionar_tarefa(nome):
