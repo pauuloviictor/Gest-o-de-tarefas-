@@ -1,23 +1,3 @@
-# utilidades.py: responsável por funções auxiliares (datas, porcentagem concluída, sorteio). 
-
-#  No módulo utilidades.py, crie funções para: retornar a data atual usando datetime; calcular a porcentagem de tarefas concluídas usando math; escolher uma tarefa aleatória usando random.choice. 
- 
-# No módulo main.py, importe os dois módulos (tarefas e utilidades) e implemente um pequeno menu no console:
- 
-#  1 – adicionar tarefa 
- 
-# 2 – listar tarefas 
- 
-# 3 – remover tarefa (informando o número da tarefa na lista)
- 
-#  4 – concluir tarefa
- 
-#  5 – mostrar porcentagem concluída 
- 
-# 6 – sortear uma tarefa aleatória
- 
-#  0 – sair
-
 import datetime
 import math
 import random
