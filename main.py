@@ -1,5 +1,3 @@
-# main.py: script principal que usa os dois módulos acima. No módulo tarefas.py, crie uma lista para armazenar as tarefas.
-# Mude para esta importação simples (assumindo que main.py e tarefas.py estão no mesmo nível)
 from agenda import tarefas
 import agenda.utilidades as utilidades
 from agenda import tarefas, utilidades
